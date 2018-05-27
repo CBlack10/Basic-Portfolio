@@ -57,11 +57,6 @@ h1 {
 
 }
 
-#nav {
-    position: absolute;
-    right: 120px;
-    top: 50px;
-}
 header {
     background-color: #ffffff;
     width: 100%;
@@ -73,6 +68,23 @@ header {
     margin-left: 15%;
     margin-right: 15%;
 
+}
+
+/* link color */
+
+a {
+    color: #777777;
+    text-decoration: none;
+    border-right: solid; 
+    border-width: 2px;
+    padding: 6px;
+}
+
+/* link spacing/position */
+#nav {
+    position: absolute;
+    right: 100px;
+    top: 25px;
 }
 
 
