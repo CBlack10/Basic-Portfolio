@@ -87,4 +87,14 @@ a {
     top: 25px;
 }
 
+/* img float and clear hack */
 
+.img {
+    float: left;
+}
+
+.clearfix::after {
+    content:"";
+    clear: both;
+    display: table;
+}
