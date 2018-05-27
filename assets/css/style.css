@@ -6,7 +6,7 @@
 body {
     background-color: #ffffff;
 	margin: 0;
-	padding: 0px;
+	padding: 0;
 	border: 0;
 	font-size: 100%; color: #777777;
 	font: inherit'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -24,7 +24,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-    line-height: 1;
+    line-height: 2;
 }
 ol, ul {
 	list-style: none;
@@ -52,8 +52,8 @@ h1 {
     width: 170px;
     padding: 20px;
     border: 20px;
-    margin-top: 0px;
-    margin-left: 15%;
+    margin-top:0px;
+    margin-left: 10%;
 
 }
 
@@ -62,11 +62,13 @@ header {
     width: 100%;
 }
 
+/* body of text */
 .content {
     background-color: #ffffff;
     margin-top: 0;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 30px;
 
 }
 
@@ -84,7 +86,7 @@ a {
 #nav {
     position: absolute;
     right: 100px;
-    top: 25px;
+    top: 35px;
 }
 
 /* img float and clear hack */
@@ -97,4 +99,5 @@ a {
     content:"";
     clear: both;
     display: table;
+    padding: 10px;
 }
