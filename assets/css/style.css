@@ -67,12 +67,11 @@ header {
 
 /* body of text */
 .content {
+    position: relative;
+    top: 20px;
+    left: 10%;
     width: 900px;
     background-color: #ffffff;
-    margin-top: 0;
-    margin-bottom: 100px;
-    margin-left: 10%;
-    margin-right: 10%;
     padding: 30px;
     border-style: solid;
     border-width: 1px;
@@ -92,7 +91,7 @@ a {
 /* link spacing/position */
 #nav {
     position: absolute;
-    right: 120px;
+    left: 71%;
     top: 27px;
 }
 
@@ -154,7 +153,7 @@ input [type=text], textarea {
 
 /* Floating Images on Portfolio Page */
 .row {
-    display: flex;
+    display: 
     flex-wrap: wrap;
     padding: 10px 0px;
 }
@@ -170,6 +169,22 @@ input [type=text], textarea {
     margin-right: 30px;
     vertical-align: middle;
   }
+
+  /*Text Overlay On Images */
+
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+
+
+/* The overlay effect - lays on top of the container and over the image */
+
 
 
 
