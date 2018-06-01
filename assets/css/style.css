@@ -80,7 +80,7 @@ h1 {
     padding: 10px;
     border: 20px;
     margin-top: 0px;
-    margin-left: 10%;
+    margin-left: 239px;
 }
 
 header {
@@ -93,7 +93,7 @@ header {
 .content {
     position: relative;
     top: 20px;
-    left: 10%;
+    left: 238px;
     margin-bottom: 250px;
     width: 900px;
     background-color: #ffffff;
@@ -117,7 +117,7 @@ a {
 
 #nav {
     position: absolute;
-    left: 71%;
+    left: 68%;
     top: 27px;
 }
 
