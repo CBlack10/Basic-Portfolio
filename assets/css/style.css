@@ -5,49 +5,73 @@
 
 body {
     background-color: #ffffff;
-	margin: 960px;
-	padding: 0;
+    margin: 960px;
+    padding: 0;
     border: 0;
-	font-size: 100%; color: #777777;
-	font: inherit'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	vertical-align: baseline;
+    font-size: 100%;
+    color: #777777;
+    font: inherit'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    vertical-align: baseline;
 }
 
 body {
     background: url(../images/what-the-hex.png);
     margin: 0;
-    padding:0px;
+    padding: 0px;
+}
 
-}
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
     line-height: 2;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-head, h2, h3 {
+
+head,
+h2,
+h3 {
     font-family: 'Georgia', 'Times New Roman', serif;
     color: #4aaaa5
 }
 
 /* "Chris Black" header */
+
 h1 {
     font-family: 'Geogia', 'Times New Roman', serif;
     color: #ffffff;
@@ -55,9 +79,8 @@ h1 {
     width: 170px;
     padding: 10px;
     border: 20px;
-    margin-top:0px;
+    margin-top: 0px;
     margin-left: 10%;
-
 }
 
 header {
@@ -66,29 +89,32 @@ header {
 }
 
 /* body of text */
+
 .content {
     position: relative;
     top: 20px;
     left: 10%;
+    margin-bottom: 250px;
     width: 900px;
     background-color: #ffffff;
     padding: 30px;
     border-style: solid;
     border-width: 1px;
     border-color: #dddddd;
-
 }
 
 /* link color */
+
 a {
     color: #777777;
     text-decoration: none;
-    border-right: solid; 
+    border-right: solid;
     border-width: 2px;
     padding: 6px;
 }
 
 /* link spacing/position */
+
 #nav {
     position: absolute;
     left: 71%;
@@ -104,18 +130,20 @@ a {
 }
 
 .clearfix::after {
-    content:"";
+    content: "";
     clear: both;
     display: table;
     padding: 10px;
 }
 
 /* bottom border in "about me" section */
+
 .about-me {
     border-bottom: solid #cccccc;
 }
 
 /* footer */
+
 .footer {
     position: sticky;
     left: 0;
@@ -123,24 +151,29 @@ a {
     width: 100%;
     background-color: #666666;
     text-align: center;
-    border-top:6px solid;
+    border-top: 6px solid;
     border-color: #4aaaa5;
-    color:#777777;
+    color: #777777;
 }
 
 /* Contact Page Form */
-input [type=text], textarea {
+
+input [type=text],
+textarea,
+#name,
+#email {
     display: inline-block;
-    width: 100%; 
+    width: 100%;
     padding: 12px;
     border: 1px solid #cccccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-bottom:vertical;
+    margin-bottom: vertical;
 }
 
 /* Submit Button Style */
+
 .button {
     background-color: #4aaaa5;
     color: #ffffff;
@@ -148,44 +181,33 @@ input [type=text], textarea {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-
 }
 
 /* Floating Images on Portfolio Page */
+
 .row {
-    display: 
-    flex-wrap: wrap;
+    display: flex-wrap: wrap;
     padding: 10px 0px;
 }
 
-  .column {
+.column {
     flex: 50%;
     padding: 0 0px;
     margin: 10px;
-  }
+}
 
-  .column img {
+.column img {
     margin-top: 8px;
     margin-right: 30px;
     vertical-align: middle;
-  }
-
-  /*Text Overlay On Images */
-
-
-/* Container needed to position the overlay. Adjust the width as needed */
-.container {
-  position: relative;
-  width: 50%;
-  max-width: 300px;
 }
 
-/* Make the image to responsive */
+/*Text Overlay On Images */
 
+/* Container needed to position the overlay. Adjust the width as needed */
 
-/* The overlay effect - lays on top of the container and over the image */
-
-
-
-
-
+.container {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
