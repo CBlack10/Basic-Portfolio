@@ -233,6 +233,7 @@ textarea,
     padding: 10px;
     width: 200px;
     height: 20px;
+    line-height: 20px;
 }
 
 .rpg {
@@ -246,6 +247,7 @@ textarea,
     padding: 10px;
     width: 200px;
     height: 20px;
+    line-height: 20px;
 }
 
 .trivia {
@@ -259,6 +261,7 @@ textarea,
     padding: 10px;
     width: 200px;
     height: 20px;
+    line-height: 20px;
 }
 
 .rutgers {
@@ -272,6 +275,7 @@ textarea,
     padding: 10px;
     width: 200px;
     height: 20px;
+    line-height: 20px;
 }
 
 .rock {
@@ -285,4 +289,5 @@ textarea,
     padding: 10px;
     width: 200px;
     height: 20px;
+    line-height: 20px;
 }
