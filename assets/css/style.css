@@ -199,7 +199,6 @@ textarea,
     float: left;
     margin: 20px;
     clear: left;
-
 }
 
 .image4 {
@@ -211,7 +210,6 @@ textarea,
     float: left;
     margin: 20px;
     clear: left;
-
 }
 
 .clear::after {
@@ -222,4 +220,69 @@ textarea,
     clear: both;
 }
 
- 
+/*text over images*/
+
+.hangman {
+    position: absolute;
+    top: 270px;
+    left: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+}
+
+.rpg {
+    position: absolute;
+    top: 270px;
+    left: 300px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+}
+
+.trivia {
+    position: absolute;
+    top: 520px;
+    left: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+}
+
+.rutgers {
+    position: absolute;
+    top: 520px;
+    left: 300px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+}
+
+.rock {
+    position: absolute;
+    top: 770px;
+    left: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+}
