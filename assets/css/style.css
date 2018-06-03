@@ -73,6 +73,9 @@ h3 {
 /* "Chris Black" header */
 
 h1 {
+    font-size: 100%;
+    text-align: center;
+    line-height: 50px;
     font-family: 'Geogia', 'Times New Roman', serif;
     color: #ffffff;
     background-color: #4aaaa5;
@@ -118,7 +121,7 @@ a {
 #nav {
     position: absolute;
     left: 68%;
-    top: 27px;
+    top: 10px;
 }
 
 /* img float and clear hack */
@@ -145,7 +148,9 @@ a {
 /* footer */
 
 .footer {
-    position: sticky;
+    position: relative;
+    margin-top: 200px;
+    clear: both;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -220,7 +225,7 @@ textarea,
     clear: both;
 }
 
-/*text over images*/
+/*text banner over images*/
 
 .hangman {
     position: absolute;
