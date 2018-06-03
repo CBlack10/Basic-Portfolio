@@ -148,7 +148,7 @@ a {
 /* footer */
 
 .footer {
-    position: relative;
+    position: sticky;
     margin-top: 200px;
     clear: both;
     left: 0;
