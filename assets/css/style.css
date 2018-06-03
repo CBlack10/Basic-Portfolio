@@ -77,10 +77,12 @@ h1 {
     color: #ffffff;
     background-color: #4aaaa5;
     width: 170px;
-    padding: 10px;
-    border: 20px;
+    padding: 15px;
+    border: 30px;
     margin-top: 0px;
     margin-left: 239px;
+    text-align: center;
+    font-size: 30px;
 }
 
 header {
@@ -140,6 +142,7 @@ a {
 
 .about-me {
     border-bottom: solid #cccccc;
+    font-size: 25px;
 }
 
 /* footer */
